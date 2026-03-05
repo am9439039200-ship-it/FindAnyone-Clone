@@ -24,7 +24,7 @@ import {
 // --- CONSTANTS & HELPERS ---
 
 const TEMPLATES = [
-    { label: 'Product Manager', desc: '"Product Manager" Fintech B2B - include interns', value: 'Find me Product Managers with B2B Fintech experience. Include internships.' },
+    { label: 'Product Manager', desc: '"Product Manager" Fintech B2B - include interns', value: 'Search for Product Managers with B2B Fintech experience. Include internships.' },
     { label: 'Data Analyst', desc: '"Data Analyst" SQL, Excel, Tableau - exclude Power BI', value: 'Data Analyst proficient in SQL, Excel, and Tableau. Exclude anyone with Power BI experience.' },
     { label: 'SDR', desc: '"SDR" from SaaS - exclude Frontend', value: 'SDR from SaaS companies. Make sure to exclude Frontend devs.' },
     { label: 'Designer', desc: '"Designer" Figma Design Systems - exclude all Interns', value: 'UI/UX Designer specialized in Figma Design Systems. No interns.' }
@@ -348,7 +348,7 @@ const App = () => {
                     </div>
 
                     <h1 className="font-display font-extrabold text-5xl md:text-8xl leading-[1.05] tracking-tight reveal-up">
-                        Find the right people<br />
+                        Search for the right people<br />
                         <span className="text-secondary italic font-normal serif">without</span> Boolean
                     </h1>
 
