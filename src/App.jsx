@@ -33,7 +33,7 @@ const TEMPLATES = [
 const FAQS = [
     { q: "Do I need to know Boolean?", a: "No. We handle all the AND/OR/NOT logic, parentheses, and exact phrase quoting automatically so you can focus on sourcing." },
     { q: "LinkedIn or Google, which is better?", a: "LinkedIn is best for active profiles and direct outreach, while Google X-Ray is superior for finding 'hidden' candidates who might have restricted their LinkedIn visibility." },
-    { q: "Is it free?", a: "FindAnyone is 100% free with no login required. We built this as a utility for the recruiting community." },
+    { q: "Is it free?", a: "SearchAnyone is 100% free with no login required. We built this as a utility for the recruiting community." },
     { q: "What if my results are noisy?", a: "Try adding more specific 'Exclude' keywords in manual mode or refining your description in AI mode. The more specific your constraints, the cleaner the results." },
     { q: "Will it work for non-tech roles?", a: "Absolutely. Whether you're hiring for Sales, Finance, Legal, or Operations, the Boolean logic remains the same." }
 ]
@@ -127,7 +127,7 @@ const Nav = () => {
                     <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center rotate-[-12deg] group-hover:rotate-0 transition-transform duration-500">
                         <Search className="w-5 h-5 text-black" />
                     </div>
-                    <span className="font-display font-bold text-xl tracking-tight">FindAnyone</span>
+                    <span className="font-display font-bold text-xl tracking-tight">SearchAnyone</span>
                 </div>
                 <div className="hidden md:flex items-center gap-8">
                     <a href="#how" className="text-sm font-medium text-secondary hover:text-white transition-colors">How It Works</a>
@@ -271,7 +271,7 @@ const App = () => {
             return {
                 linkedin_boolean: lb || `"${text}"`,
                 google_xray: `site:linkedin.com/in/ ${lb || `"${text}"`}`,
-                explanation: "Processed via FindAnyone Local Intelligence Engine."
+                explanation: "Processed via SearchAnyone Local Intelligence Engine."
             }
         }
 
@@ -783,7 +783,7 @@ const App = () => {
                                 <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
                                     <Search className="w-5 h-5 text-black" />
                                 </div>
-                                <span className="font-display font-bold text-2xl tracking-tighter">FindAnyone</span>
+                                <span className="font-display font-bold text-2xl tracking-tighter">SearchAnyone</span>
                             </div>
                             <p className="text-secondary max-w-sm leading-relaxed font-medium">
                                 The modern standard for LinkedIn and Google sourcing logic. Built for recruiters, by recruiters.
@@ -816,7 +816,7 @@ const App = () => {
                     </div>
 
                     <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
-                        <span className="text-secondary/40 font-bold text-xs">© {new Date().getFullYear()} FindAnyone. All rights reserved.</span>
+                        <span className="text-secondary/40 font-bold text-xs">© {new Date().getFullYear()} SearchAnyone. All rights reserved.</span>
                         <div className="flex gap-8 text-secondary/40 font-bold text-xs uppercase tracking-widest cursor-pointer">
                             <span className="hover:text-white transition-colors">Privacy</span>
                             <span className="hover:text-white transition-colors">Terms</span>
