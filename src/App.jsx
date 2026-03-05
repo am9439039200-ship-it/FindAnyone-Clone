@@ -809,7 +809,7 @@ const App = () => {
                             <h5 className="font-bold text-white uppercase text-xs tracking-widest">Connect</h5>
                             <ul className="space-y-4 text-secondary font-medium">
                                 <li><a href="#" className="hover:text-white transition-colors">Twitter (X)</a></li>
-                                <li><a href="#" className="hover:text-white transition-colors">LinkedIn</a></li>
+                                <li><a href="https://www.linkedin.com/in/abhijeet-mishra1/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a></li>
                                 <li><a href="#" className="hover:text-white transition-colors">Send Feedback</a></li>
                             </ul>
                         </div>
